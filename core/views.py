@@ -9,3 +9,4 @@ class TodoViewSet(viewsets.ModelViewSet):
     queryset = Todo.objects.all()
     permission_classes = (IsAuthenticated,)
 
+
